@@ -5,6 +5,7 @@ The interesting fields are
     - call name (i.e. reserve_money)
     - amount
     - email of billing address
+    - email of delivery address if exists
     - storeid
     - ss_no, if exists, can be found under attachment 
 

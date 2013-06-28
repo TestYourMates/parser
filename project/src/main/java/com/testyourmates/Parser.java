@@ -12,8 +12,9 @@ public interface Parser {
      *              call_name,
      *              amount,
      *              billing_address_email,
+     *              delivery_address_email (if exists otherwise null),
      *              storeid,
-     *              ss_no (if exists)
+     *              ss_no (if exists otherwise null)
      *         ]
      */
     List<String> parse(String data);
