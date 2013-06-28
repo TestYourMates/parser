@@ -1,0 +1,17 @@
+
+Write parser for log files. A sample of the log file is provided (resources/input.log).
+The interesting fields are
+    - timestamp
+    - call name (i.e. reserve_money)
+    - amount
+    - email of billing address
+    - storeid
+    - ss_no, if exists, can be found under attachment 
+
+A test, ParserTest.java, can be found in the project which verifies fields above in
+the provided sample log file. To be completly finished with this assignment this test
+should execute with all tests passed.
+
+If the time is not enought, try to finish as much as possible on the parser.
+
+Enjoy!
